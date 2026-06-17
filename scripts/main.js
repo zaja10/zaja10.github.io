@@ -38,6 +38,24 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    // Hamburger Menu Logic
+    const menuToggleBtn = document.getElementById('menu-toggle');
+    const navLinksContainer = document.querySelector('.nav-links');
+    
+    if (menuToggleBtn && navLinksContainer) {
+        menuToggleBtn.addEventListener('click', () => {
+            navLinksContainer.classList.toggle('active');
+            const icon = menuToggleBtn.querySelector('i');
+            if (navLinksContainer.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+    }
+
     // Set active nav link based on current page
     const currentPage = window.location.pathname.split('/').pop() || 'index.html';
     const navLinks = document.querySelectorAll('.nav-links a');
