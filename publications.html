@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications | Academic Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+        .publications-list {
+            margin-top: 2rem;
+        }
+        .pub-actions {
+            margin-top: 1rem;
+            display: flex;
+            gap: 1rem;
+        }
+        .pub-actions a {
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar-toolbox">
+        <a href="mailto:your.email@example.com" class="toolbox-link" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/zacharyaldiss/" target="_blank" rel="noopener noreferrer" class="toolbox-link" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://orcid.org/0000-0003-2468-1050" class="toolbox-link" title="ORCID"><i class="fab fa-orcid"></i></a>
+    </div>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Zac.</a>
+            <ul class="nav-links">
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="tools.html">Tools</a></li>
+
+            </ul>
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Dark Mode">
+                <i class="fas fa-moon" id="theme-icon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <h2>Publications</h2>
+        <p>A selected list of my peer-reviewed journal articles and conference proceedings.</p>
+
+        <div class="publications-list" id="orcid-publications">
+            <!-- Publications will be dynamically loaded here by scripts/orcid.js -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Zac. Designed for academia.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/orcid.js"></script>
+</body>
+</html>

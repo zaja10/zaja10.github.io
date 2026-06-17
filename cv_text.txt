@@ -1,0 +1,74 @@
+Zachary Aldiss
+701 N Lincoln Ave, Urbana, Illinois, 61801
+zaldiss@illinois.edu
++1 217 390 9758
+linkedin.com/in/zacharyaldiss
+I am a highly motivated postdoctoral research associate at the University of Illinois with a passion for developing and implementing innovative tools for understanding and maximizing genetic diversity and profitability. My passion lies in supporting breeders and growers by applying quantitative genetics and genomics, coupled with advanced molecular biology techniques, to develop more climate-resilient crops. I possess expertise in implementing high-throughput phenotyping assays, genomic prediction, novel allele identification, and genome editing. I am confident that my current research efforts demonstrate my dedication to this mission, showcasing a strong commitment to enhancing our knowledge of plant biology and its applications in addressing the urgent global challenges related to agriculture and food production. ​
+Education and Experience
+Postdoctoral Research Associate October 2025 – Present
+University of Illinois Urbana Champaign 
+In this position, I conduct research involving quantitative and statistical genetic analyses on yield, agronomic, and canopy spectral reflectance data gathered on wheat trials across the United States as part of the Wheat Coordinated Agricultural Project funded by USDA-NIFA. The major duties and responsibilities are: 
+Curate and analyze phenotypic and marker data pertaining to wheat breeding trials.
+Develop and test hypotheses to gain insight from the vast amount of data that has been collected through the Wheat Coordinated Agricultural Project.
+Report findings and progress to supervisor and others involved in the project at least once every month.
+Lead and carry out the writing of peer-reviewed publications to disseminate research findings.
+Collaborate with other members of the research team to support research and publication efforts lead by others.
+Doctorate in Molecular and Quantitative Genetics (PhD)January 2022 – October 2025
+University of Queensland: Queensland Alliance for Agriculture and Food Innovation
+Thesis entitled “Harnessing natural genetic variation and genome engineering to optimise barley root systems”
+Primary Supervisor: Prof. Lee Hickey
+Associate Supervisors: Prof. Ian Godwin, Prof. Andrew Borrell, Dr. Peter Crisp, Dr. Hannah Robinson and Dr. Karen Massel.
+Masters of Molecular Biology (Research Extensive) (GPA 7.0)July 2020 – December 2021
+University of Queensland
+Dean’s Commendation for Academic Excellence (2021)
+   
+BSc   Biomedical Science (1st Class Honours) (GPA 7.0)  February 2015 – November 2019
+University of Queensland 
+Dean’s Commendation for Academic Excellence (2019)
+Awards & Grants
+2025 UIUC ACES Seed Grant ($5,000 USD)
+2024 QAAFI Travel Grant Recipient ($3,000 AUD)
+2024 IRTG Travel Grant Recipient ($3,000 AUD)
+2022-2024 InterGrain Industry top up scholarship ($30,000 AUD)
+2022-2025 RHD Scholarship, Queensland Alliance for Agriculture and Food Innovation, University of Queensland
+2022-2025 Research Training Program Scholarship, University of Queensland
+Research 
+PhD ResearchJanuary 2022 – Present 
+Development of high throughput phenotyping assay to assess gravitropic response in barley seedlings.
+In-depth root phenotyping of gene edited barley and sorghum to test modifications in root angle, gravitropism, depth, length and biomass distribution using clear pots, rhizoboxes and gravitropic chambers.
+Genome wide association studies of phenotypic traits across diverse populations.
+Developed methodology for comparing global diversity populations and breeding program material following haploblock mapping and haplotype analysis.
+Multi-trait and longitudinal modelling of complex traits in diverse barley field trials
+Multi-environment trial (MET) analysis for genetic and phenotypic correlations using multi-trait approaches 
+Genomic selection and prediction models such as PCA, GBLUP, Reaction Norm, Factor Analysis and GxE approaches.
+Masters ResearchJuly 2020 – December 2021
+Performed fundamental molecular skills including primer and CRISPR construct design, PCR and DNA extractions.
+Genome editing of barley embryos through biolostic particle bombardment and subsequent tissue culture.
+Publications 
+Aldiss, Z., Robinson, H., Lam, Y., Dixon, R., Crisp, P., Godwin, I., Borrell, A., Hickey, L., & Massel, K. (2025). The PIN2 ortholog in barley modifies root gravitropism and architecture. The Plant Genome. doi.org/10.1101/2024.03.28.587117
+Taylor, K., Dixon, R., Taleski, M., Hintzsche, J., Aldiss, Z., Massel, K., Robinson, H., Gagliardini, V., Grossniklaus, U., Godwin, I., Hickey, L., Djordjevic, MA. CEPR1 function across plant lineages: peptide hormone recognition by cereal crop orthologs and developmental roles in barley. Journal of Experimental Botany. doi.org/10.1093/jxb/eraf316
+Alahmad, S., Smith, D., Katsikis, C., Aldiss, Z., Van Der Meer, S., Meijer, L., Chenu, K., Chapman, S., Potgieter, B.A., Wasson, A., Baraibar, S., Godoy, J., Moody, D., Robinson, H., Hickey, L.T. (2025) Phenotyping the hidden half: Combining phenotyping and machine learning to predict barley root traits in the field. Theoretical and Applied Genetics. 
+doi.org/10.1101/2024.12.02.626299
+Aldiss, Z., Lam, Y., Baraibar, S., Van Der Meer, S., Dinglasan, E., Massel, K., Crisp, P., Godwin, I., Borrell, A., Moody, D., Hickey, L., Robinson, H. (2025). Haplotype-based Insights into Seminal Root Angle in Barley. The Plant Genome. 
+Oral and Poster Presentations
+Aldiss Z. (2025) Harnessing natural variation and genome editing to improve barley root systems. Plant and Animal Genome Conference (PAG) on January 14th 2025 in San Diego, USA. 
+Aldiss Z. (2024) Exploring genetic variation for root architecture in global and Australian barley. Oral presentation accepted for  Australian Barley Technical Symposium and delivered by Prof. Lee Hickey September 2nd 2024 in Melbourne.
+Aldiss Z. (2024) Haplotype mapping for seminal root angle. International Research Training Group (IRTG) Q Workshop August 5th 2024 at HGU in Quedlinburg, Germany.
+Aldiss Z. (2024) Haplotype mapping for seminal root angle. International Conference of Quantitative Genetics (ICQG7) on 24th July 2024 at Vienna, Austria. (Poster Presentation)
+Aldiss Z. (2023) Genome editing to create barley with designer roots. Australian Society of Plant Science on 23rd November at Hobart, Tasmania. (Poster Presentation & Lightning Talk)
+References
+Assistant Professor Jessica Rutkoski
+Small Grains Breeder
+University of Illinois Urbana Champaign
+Employer
+jrut@illinois.edu
+Professor Lee Hickey
+Centre Director of ARC Training Centre for Predictive Breeding & ARC Future Fellow
+University of Queensland, QAAFI (Centre of Crop Science) 
+Primary PhD supervisor
+l.hickey@uq.edu.au
+Professor Ian Godwin
+Centre Director of Centre for Crop Science
+University of Queensland, QAAFI (Centre for Crop Science)
+PhD supervisor
+i.godwin@uq.edu.au
