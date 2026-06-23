@@ -638,10 +638,9 @@ footer {
 }
 
 .chapter-content {
-    display: grid;
-    grid-template-columns: 1.2fr 1fr;
-    gap: 2.5rem;
-    align-items: start;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .chapter-text {
@@ -656,23 +655,21 @@ footer {
 }
 
 .chapter-text ul {
-    list-style: none;
-    padding: 0;
-    display: grid;
-    gap: 1rem;
+    display: block;
+    padding-left: 2rem;
+    list-style-type: disc;
 }
 
 .chapter-text li {
-    background: var(--bg-primary);
-    padding: 1.25rem 1.5rem;
-    border-radius: 12px;
-    border: 1px solid var(--border-color);
-    transition: transform 0.2s ease, border-color 0.2s ease;
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin-bottom: 0.75rem;
 }
 
 .chapter-text li:hover {
-    transform: translateX(5px);
-    border-color: var(--accent-primary);
+    transform: none;
+    border-color: transparent;
 }
 
 .chapter-text li strong {
@@ -685,7 +682,7 @@ footer {
 
 .chapter-image img {
     width: 100%;
-    max-width: 50%;
+    max-width: 650px;
     height: auto;
     border-radius: 12px;
     box-shadow: var(--shadow-sm);

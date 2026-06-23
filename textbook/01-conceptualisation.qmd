@@ -1,0 +1,27 @@
+# GxE Conceptualisation & Frameworks
+
+Understanding Genotype-by-Environment interactions requires separating absolute performance from relative stability.
+
+## Performance Plot
+Emphasizes patterns of response across sites. The environment mean is used as a proxy index for absolute ecosystem productivity (Yates & Cochran / Finlay-Wilkinson).
+
+## Discrimination Plot (Bar Charts)
+Provides a visual 'relative genotype performance index' (Ivory et al. 1991). Highlights performance trends and how environments elicit unique variance.
+
+## Proximity Plot (Ordination)
+Spatial position displays performance similarity in strict Euclidean space. Closer distance = highly similar GxE profile. Discrepant distances = high rank instability.
+
+### Interactive Proximity Plot Demonstration
+
+Below is an interactive demonstration of a 3D GxE Proximity Plot using simulated data. You can rotate, zoom, and hover to see individual genotype stabilities across environments.
+
+```{r}
+#| label: fig-conceptualisation
+#| fig-cap: "GxE Conceptualisation Plots"
+#| warning: false
+#| message: false
+#| fig-width: 10
+#| fig-height: 8
+
+source("../../ScriptBook/GxEscripts/GxE conceptualisation.R")
+```

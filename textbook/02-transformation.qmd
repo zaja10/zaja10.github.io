@@ -1,0 +1,24 @@
+# GxE Data Transformation Engine
+
+Implementing structural data transformations allows us to isolate interaction components from raw multi-environment trial (MET) data:
+
+- **1. Untransformed**: Baseline raw data model capturing all phenotypic yield.
+- **2. Environment Centred**: Removes the main environmental effect (mean = 0) to observe pure deviation.
+- **3. Environment Standardized**: Scales by within-environment phenotypic variance to equalise heterogeneous trial quality.
+- **4. Heritability Weighted**: Shrunk by reliability coefficient. Scales by the square root of line-mean heritability.
+- **5. Environment Ranked**: Non-parametric proportions. Proportional mapping of ranks between 0 (worst) and 1 (best).
+
+### Interactive Transformation Comparison
+
+Below is an interactive Plotly boxplot demonstrating how raw data distributions change across environments after applying the "Environment Standardized" transformation. Hover over the boxes to see quartile statistics.
+
+```{r}
+#| label: fig-transform
+#| fig-cap: "GxE Data Transformation Engine Plots"
+#| warning: false
+#| message: false
+#| fig-width: 12
+#| fig-height: 8
+
+source("../../ScriptBook/GxEscripts/GxE data transformation.R")
+```

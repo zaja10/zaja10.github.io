@@ -1,0 +1,13 @@
+# Welcome to the Interactive GxE Textbook {.unnumbered}
+
+Explore quantitative stability frameworks, models, and transformations for Genotype-by-Environment (GxE) interactions. 
+
+This textbook replaces static chapters with a dynamic, interactive reading experience. Built with Quarto, it allows readers to engage directly with analytical plots, exploring the multidimensionality of GxE data.
+
+## Modules Overview
+
+- **[1. GxE Conceptualisation & Frameworks](01-conceptualisation.qmd)**: Visualizing absolute performance vs. relative stability.
+- **[2. GxE Data Transformation Engine](02-transformation.qmd)**: Isolating interaction components from MET data.
+- **[3. Classical GxE Stability Compendium](03-stability.qmd)**: Contrasting the mathematical logic behind stability metrics.
+
+*Select a chapter from the sidebar or click the links above to begin.*

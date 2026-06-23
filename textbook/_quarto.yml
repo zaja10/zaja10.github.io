@@ -1,0 +1,23 @@
+project:
+  type: book
+
+book:
+  title: "Interactive GxE Textbook"
+  author: "Zachary Aldiss"
+  date: "2026"
+  chapters:
+    - index.qmd
+    - 01-conceptualisation.qmd
+    - 02-transformation.qmd
+    - 03-stability.qmd
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: ../styles/main.css
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    smooth-scroll: true

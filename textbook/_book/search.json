@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Interactive GxE Textbook",
+    "section": "",
+    "text": "Welcome to the Interactive GxE Textbook\nExplore quantitative stability frameworks, models, and transformations for Genotype-by-Environment (GxE) interactions.\nThis textbook replaces static chapters with a dynamic, interactive reading experience. Built with Quarto, it allows readers to engage directly with analytical plots, exploring the multidimensionality of GxE data.",
+    "crumbs": [
+      "Welcome to the Interactive GxE Textbook"
+    ]
+  },
+  {
+    "objectID": "index.html#modules-overview",
+    "href": "index.html#modules-overview",
+    "title": "Interactive GxE Textbook",
+    "section": "Modules Overview",
+    "text": "Modules Overview\n\n1. GxE Conceptualisation & Frameworks: Visualizing absolute performance vs. relative stability.\n2. GxE Data Transformation Engine: Isolating interaction components from MET data.\n3. Classical GxE Stability Compendium: Contrasting the mathematical logic behind stability metrics.\n\nSelect a chapter from the sidebar or click the links above to begin.",
+    "crumbs": [
+      "Welcome to the Interactive GxE Textbook"
+    ]
+  },
+  {
+    "objectID": "01-conceptualisation.html",
+    "href": "01-conceptualisation.html",
+    "title": "1  GxE Conceptualisation & Frameworks",
+    "section": "",
+    "text": "1.1 Performance Plot\nUnderstanding Genotype-by-Environment interactions requires separating absolute performance from relative stability.\nEmphasizes patterns of response across sites. The environment mean is used as a proxy index for absolute ecosystem productivity (Yates & Cochran / Finlay-Wilkinson).",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>GxE Conceptualisation & Frameworks</span>"
+    ]
+  },
+  {
+    "objectID": "01-conceptualisation.html#discrimination-plot-bar-charts",
+    "href": "01-conceptualisation.html#discrimination-plot-bar-charts",
+    "title": "1  GxE Conceptualisation & Frameworks",
+    "section": "1.2 Discrimination Plot (Bar Charts)",
+    "text": "1.2 Discrimination Plot (Bar Charts)\nProvides a visual ‘relative genotype performance index’ (Ivory et al. 1991). Highlights performance trends and how environments elicit unique variance.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>GxE Conceptualisation & Frameworks</span>"
+    ]
+  },
+  {
+    "objectID": "01-conceptualisation.html#proximity-plot-ordination",
+    "href": "01-conceptualisation.html#proximity-plot-ordination",
+    "title": "1  GxE Conceptualisation & Frameworks",
+    "section": "1.3 Proximity Plot (Ordination)",
+    "text": "1.3 Proximity Plot (Ordination)\nSpatial position displays performance similarity in strict Euclidean space. Closer distance = highly similar GxE profile. Discrepant distances = high rank instability.\n\n1.3.1 Interactive Proximity Plot Demonstration\nBelow is an interactive demonstration of a 3D GxE Proximity Plot using simulated data. You can rotate, zoom, and hover to see individual genotype stabilities across environments.\n\nsource(\"../../ScriptBook/GxEscripts/GxE conceptualisation.R\")\n\n\n\n\n\n\n\nFigure 1.1: GxE Conceptualisation Plots",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>GxE Conceptualisation & Frameworks</span>"
+    ]
+  },
+  {
+    "objectID": "02-transformation.html",
+    "href": "02-transformation.html",
+    "title": "2  GxE Data Transformation Engine",
+    "section": "",
+    "text": "Implementing structural data transformations allows us to isolate interaction components from raw multi-environment trial (MET) data:\n\n1. Untransformed: Baseline raw data model capturing all phenotypic yield.\n2. Environment Centred: Removes the main environmental effect (mean = 0) to observe pure deviation.\n3. Environment Standardized: Scales by within-environment phenotypic variance to equalise heterogeneous trial quality.\n4. Heritability Weighted: Shrunk by reliability coefficient. Scales by the square root of line-mean heritability.\n5. Environment Ranked: Non-parametric proportions. Proportional mapping of ranks between 0 (worst) and 1 (best).\n\n\n2.0.1 Interactive Transformation Comparison\nBelow is an interactive Plotly boxplot demonstrating how raw data distributions change across environments after applying the “Environment Standardized” transformation. Hover over the boxes to see quartile statistics.\n\nsource(\"../../ScriptBook/GxEscripts/GxE data transformation.R\")\n\n\n--- TRANSFORMATION SNAPSHOT FOR ENVIRONMENT 1 ---\n# A tibble: 5 × 6\n  Genotype Untransformed Env_Centred Env_Standardized Heritability_Weighted\n  &lt;fct&gt;            &lt;dbl&gt;       &lt;dbl&gt;            &lt;dbl&gt;                 &lt;dbl&gt;\n1 G1                8.04     -1.10             -1.25                -0.497 \n2 G2               10.1       0.984             1.12                 0.443 \n3 G3                9.22      0.0757            0.086                0.0341\n4 G4                9.33      0.179             0.203                0.0805\n5 G5                9.01     -0.134            -0.153               -0.0605\n# ℹ 1 more variable: Env_Ranked &lt;dbl&gt;\n               STRUCTURAL CHECK (GRAND MEANS BY TRANSFORMATION)          \n# A tibble: 1 × 5\n  Mean_Untransformed Mean_Centred Mean_Standardized Mean_Heritability\n               &lt;dbl&gt;        &lt;dbl&gt;             &lt;dbl&gt;             &lt;dbl&gt;\n1               12.1     8.88e-17          1.96e-16          1.20e-16\n# ℹ 1 more variable: Mean_Ranked &lt;dbl&gt;\n\n\n\n\n\n\n\n\nFigure 2.1: GxE Data Transformation Engine Plots",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>GxE Data Transformation Engine</span>"
+    ]
+  },
+  {
+    "objectID": "03-stability.html",
+    "href": "03-stability.html",
+    "title": "3  Classical GxE Stability Compendium",
+    "section": "",
+    "text": "Contrasting mathematical logic behind stability parameters:\n\n1. Regression Framework: Finlay-Wilkinson & Eberhart-Russell evaluate sensitivity slope (bi) and residual deviation (s2di). Racehorses show bi &gt; 1, static types show bi -&gt; 0.\n2. Static Selection Window: Francis & Kannenberg use Coefficient of Variation (CV) vs. Mean. The ideal genotype exists in the top-left quadrant (high yield, low CV).\n3. Additive Interaction Space: Wricke’s Ecovalence and Shukla’s Stability Variance measure identical structural deviations.\n4. Superiority Index: Lin & Binns distance penalizes genotypes that drop below the maximum yield at any site, optimizing for distance to the frontier.\n\n\n3.0.1 Interactive Static Selection Window\nBelow is an interactive Francis & Kannenberg Plot (CV vs Mean). The ideal genotypes fall into the top-left quadrant (high mean yield, low coefficient of variation). You can hover over points to identify specific genotypes.\n\nsource(\"../../ScriptBook/GxEscripts/GxE Stability Formulas.R\")\n\n\n========================================================================            COMPLETE QUANTITATIVE GENETICS STABILITY METRICS            ========================================================================# A tibble: 6 × 15\n  Genotype Mean_Yield    s2_i    CV   b_i  s2_di  beta_i   W2_i sigma2_i\n  &lt;chr&gt;         &lt;dbl&gt;   &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt;    &lt;dbl&gt;\n1 G1            12.1  10.9    27.3  2.09  0.110   1.09   15.3      4.21 \n2 G2            11.0   0.0910  2.74 0.167 0      -0.833   8.68     2.21 \n3 G3            10.0   2.01   14.2  0.881 0.0605 -0.119   0.613   -0.212\n4 G4             9.55  2.24   15.7  0.930 0.0796 -0.0704  0.576   -0.223\n5 G5             9.51  4.06   21.2  1.09  1.38    0.0863  5.81     1.35 \n6 G6             8.47  1.83   16.0  0.845 0.0362 -0.155   0.640   -0.204\n  theta_bar_i theta_deleted_i   P_i    ASV alpha_i lambda_i\n        &lt;dbl&gt;           &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;   &lt;dbl&gt;    &lt;dbl&gt;\n1       2.47            3.68   1.11 13.3    1.09      3.24 \n2       1.67            2.08   3.36 10.0   -0.833     0.550\n3       0.707           0.147  4.54  1.40  -0.119     2.23 \n4       0.703           0.138  5.97  0.896 -0.0704    2.62 \n5       1.33            1.40   6.48  2.45   0.0863   29.1  \n6       0.710           0.154 10.3   1.82  -0.155     1.74 \n\n[Global Metric] Burdon (1977) Type B Genetic Correlation (r_gb): 0.5402\n========================================================================\n\n\n\n\n\n\n\n\nFigure 3.1: GxE Stability Formulas Plots",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Classical GxE Stability Compendium</span>"
+    ]
+  }
+]
