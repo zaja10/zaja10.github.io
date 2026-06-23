@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3. Stability Compendium | Interactive Textbook</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="../../index.html" class="logo">Zac.</a>
+            <ul class="nav-links">
+                <li><a href="../../index.html">About Me</a></li>
+                <li><a href="../../publications.html">Publications</a></li>
+                <li><a href="../../cv.html">CV</a></li>
+                <li><a href="../../tools.html">Tools</a></li>
+                <li><a href="../index.html" class="active">Textbook</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle"><i class="fas fa-moon" id="theme-icon"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="textbook-header" style="margin-bottom: 2rem;">
+            <p style="color: var(--accent-primary); font-weight: 600; margin-bottom: 0.5rem;">Module 3</p>
+            <h1 class="hero-title" style="font-size: 2.2rem;">Classical GxE Stability Compendium</h1>
+        </div>
+
+        <div class="textbook-layout">
+            <aside class="textbook-sidebar">
+                <a href="../index.html" class="page-btn" style="margin-bottom: 2rem; justify-content: center;"><i class="fas fa-home"></i> Back to Directory</a>
+                <h3><i class="fas fa-book-open"></i> Navigation</h3>
+                <nav class="toc-nav">
+                    <a href="01-conceptualisation.html" class="toc-link">1. Conceptualisation</a>
+                    <a href="02-transformation.html" class="toc-link">2. Transformation Engine</a>
+                    <a href="03-stability.html" class="toc-link active">3. Stability Compendium</a>
+                </nav>
+            </aside>
+
+            <div class="textbook-content">
+                <section class="textbook-chapter" style="box-shadow: none; border: none; padding: 0;">
+                    <div class="chapter-content">
+                        <div class="chapter-text">
+                            <p>Contrasting mathematical logic behind stability parameters:</p>
+                            <ul>
+                                <li><strong>1. Regression Framework</strong> Finlay-Wilkinson & Eberhart-Russell evaluate sensitivity slope (bi) and residual deviation (s2di). Racehorses show bi > 1, static types show bi -> 0.</li>
+                                <li><strong>2. Static Selection Window</strong> Francis & Kannenberg use Coefficient of Variation (CV) vs. Mean. The ideal genotype exists in the top-left quadrant (high yield, low CV).</li>
+                                <li><strong>3. Additive Interaction Space</strong> Wricke's Ecovalence and Shukla's Stability Variance measure identical structural deviations.</li>
+                                <li><strong>4. Superiority Index</strong> Lin & Binns distance penalizes genotypes that drop below the maximum yield at any site, optimizing for distance to the frontier.</li>
+                            </ul>
+                        </div>
+                        <div class="chapter-image">
+                            <img src="../../images/textbook/stability.png" alt="GxE Stability Formulas">
+                        </div>
+                    </div>
+                    
+                    <div class="textbook-pagination">
+                        <a href="02-transformation.html" class="page-btn"><i class="fas fa-arrow-left"></i> Prev: Transformation Engine</a>
+                        <a href="../index.html" class="page-btn page-btn-next"><i class="fas fa-home"></i> Directory</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container"><p>&copy; 2026 Zac. Designed for academia.</p></div>
+    </footer>
+    <script src="../../scripts/main.js"></script>
+</body>
+</html>
